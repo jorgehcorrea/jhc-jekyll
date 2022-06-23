@@ -17,7 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Services"
+    title: "What I do"
     text: "The whole picture"
     section: services
     list:
@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         icon: fas fa-cube
 
   portfolio:
-    title: "Portfolio"
+    title: "Past Projects"
     text: "Past project and skills I bring to the table"
     section: portfolio
     closebutton: "Close Project"
