@@ -1,4 +1,4 @@
-# Hello And welcome  
+# Hello And welcome  ui
 
 
 ## Who am I
@@ -10,3 +10,4 @@ I enjoy the most technical aspects of the manufacturing and like nothing more th
 This is the repository I am working on to have a record of my work online, in order to transparently discuss what is to be seen.
 >remember: bundle exec jekyll serve
 >location: utente/.ssh/jhc-jekyll
+{% include about.html %}
