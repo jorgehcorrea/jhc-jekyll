@@ -4,11 +4,14 @@ layout: default
 {% include nav.html %}
 
 {% if page.background == "grey" or page.background == "gray" %}
+
 <script>
 document.getElementById("page-top").className="bg-light";
 </script>
-{% endif %}
 
-<div class="container" id="pagecontainer">
+{% endif %}
+<<h1>some page</h1>
+<div class="container col-lg-8"  id="pagecontainer">
+  <h1>this is a test if the site is proper</h1>
 {{ content }}
 </div>

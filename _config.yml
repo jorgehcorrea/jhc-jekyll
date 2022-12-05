@@ -10,16 +10,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
- 
+
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 remote_theme: raviriley/agency-jekyll-theme
 
-title      : jhc.design
+title      : JHC DESIGN
 email      : jorgecorrea.id@gmail.com #this is also the email contact forms will go to
-description: "Most stuff"
+description: "Jorge Correa's work and services"
 author     : Jorge Correa
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

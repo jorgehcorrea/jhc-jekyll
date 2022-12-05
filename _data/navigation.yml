@@ -15,8 +15,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Work"
       section: portfolio
-    - title: ""
-      section: about
+#    - title: ""
+#      section: about
 #    - blog: "Intrests"
 #      section: posts
 #    - title: "Timeline"
