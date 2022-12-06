@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: I design physical & Digital products,<br> spaces & experiances
+    title: I design physical & digital products,<br> spaces & experiences
     text:
     button: Tell Me More
     buttonlink: "#services"
@@ -28,12 +28,12 @@ en: &DEFAULT_EN
         desc: "From the initial Idea, co-creating, validating and prototyping a solution to have the best result in the given time"
         icon: fas fa-draw-polygon
       - title: "Industrial Design"
-        desc: "The development, sourcing and production of the product, considering local production and sustainable alternatives."
+        desc: "The development, sourcing and production of the product, considering local production and sustainable alternatives"
         icon: fas fa-cube
 
   portfolio:
     title: "Industrial & Strategic Design"
-    text: "I design Physical & Digital products,<br> spaces & experiances"
+    text: "I design Physical & Digital products,<br> spaces & experiences"
     section: portfolio
     closebutton: "Close Project"
 
