@@ -18,27 +18,9 @@ alt: image alt text
 - **Client:** MIT Fabacademy
 - **Category:** Iot: Furniture
 
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn.jpg" />
-</div>
-
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn3.jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn4.jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn5.jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn6.jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn3.jpg" />
-</div>
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn3.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn4.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn5.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn6.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/sitncoffee/sn3.jpg" width="100%" height="100%" />

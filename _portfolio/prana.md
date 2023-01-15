@@ -17,27 +17,11 @@ caption:
 - Client: Air Purification Market
 - Category: Strategy
 
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (5).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana.jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (6).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (7).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (8).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (9).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (10).jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (1).jpg" />
-</div>
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (5).jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (6).jpg" width="100%" height="100%"/>
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (7).jpg" width="100%" height="100%"/>
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (8).jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (9).jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (10).jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/prana/prana (1).jpg" width="100%" height="100%" />

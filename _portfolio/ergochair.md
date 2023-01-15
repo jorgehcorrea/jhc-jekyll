@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Could we produce this locally? Yes! 
+  title: Could we produce this locally? Yes!
   subtitle: Developing Ergonomics in-house
   thumbnail: ../../assets/img/portfolio/001/ErgoChair.jpg
 #400x600 image
@@ -22,12 +22,7 @@ alt: image alt text
 - **Client:** ATU International
 - **Category:** Furniture Development
 
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/001/2.jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/001/1.jpg" />
-</div>
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/001/3.jpg" />
-</div>
+
+<img id="bigDude" src="b../../assets/img/portfolio/001/2.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/001/1.jpg" width="100%" height="100%" />
+<img id="bigDude" src="b../../assets/img/portfolio/001/3.jpg" width="100%" height="100%" />

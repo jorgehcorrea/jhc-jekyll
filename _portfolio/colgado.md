@@ -18,22 +18,8 @@ Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur 
 - Client: Explore
 - Category: Graphic Design
 
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/colgado/colgadov.gif" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/colgado/colgado (3).jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/colgado/colgado (5).jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/colgado/colgado (6).jpg" />
-</div>
-
-<div id="container">
-    <img id="bigDude" src="b../../assets/img/portfolio/colgado/colgado (2).jpg" />
-</div>
+<img src="../../assets/img/portfolio/colgado/colgadov.gif" width="100%" height="100%">
+<img src="../../assets/img/portfolio/colgado/colgado (3).jpg" width="100%" height="100%">
+<img src="../../assets/img/portfolio/colgado/colgado (5).jpg" width="100%" height="100%">
+<img src="../../assets/img/portfolio/colgado/colgado (6).jpg" width="100%" height="100%">
+<img src="../../assets/img/portfolio/colgado/colgado (2).jpg" width="100%" height="100%">

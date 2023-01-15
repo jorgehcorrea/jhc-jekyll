@@ -15,9 +15,10 @@
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-remote_theme: raviriley/agency-jekyll-theme
+remote_theme: jekyll-agency
 
 title      : JHC DESIGN
+
 email      : jorgecorrea.id@gmail.com #this is also the email contact forms will go to
 description: "Jorge Correa's work and services"
 author     : Jorge Correa
@@ -32,8 +33,8 @@ analytics:
 
 collections:
   portfolio:
-
-markdown: kramdown
+permalink: /:title/
+# markdown:
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
