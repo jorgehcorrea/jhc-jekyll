@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "What I do"
-    text: "The whole picture"
+    text: "Use tools and frameworks to see the big picture and the detail"
     section: services
     list:
       - title: "Design & Strategy"
@@ -32,8 +32,8 @@ en: &DEFAULT_EN
         icon: fas fa-cube
 
   portfolio:
-    title: "Industrial & Strategic Design"
-    text: "I design Physical & Digital products,<br> spaces & experiences"
+    title: "Portfolio : Industrial & Strategic Design"
+    text: "Here I showcase projects I've been a part of and I have enjoyed greatly"
     section: portfolio
     closebutton: "Close Project"
 
