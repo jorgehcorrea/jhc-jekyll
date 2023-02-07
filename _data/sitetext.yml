@@ -54,7 +54,7 @@ en: &DEFAULT_EN
         desc: "I enjoyed making furniture with my hands. Increasingly I designed, proposed to clients, later started bidding for projects and supervised production was done properly acording to the design. <br> <br> I started as part of a small exclusive workshop, later switched to worked with a larger furniture company and developed, supervised and installed interior design project of various budgets styles and scales arround Ecuador."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Making shoes, making them better"
+      - title: "Making shoes, <br> making them better"
         year: ""
         desc: "Making the Switch from to Footwear. I had workd in the industry in the past, yet this time I was able to make things happen. I was part of an independent brand for a time, later I was part of an in-house Footwear Design team. Close to production and willing to make change happen. "
         image: assets/img/timeline/3.jpg
@@ -62,7 +62,7 @@ en: &DEFAULT_EN
       - title: "Going beyond .. "
         year: "Today"
         desc: "After creating inside multiple companies, sectors and ventures I looked for better Understanding with a Master in Politecnico to create real Strategic chcange and growth "
-        image: assets/img/timeline/4.png
+        image: assets/img/timeline/4.PNG
         alt:
         # you can enforce the alignment
         align: right
@@ -136,7 +136,7 @@ en: &DEFAULT_EN
     name: "Name*"
     name-validation: "Jorge Correa"
     email: "Email*"
-    email-validation: "jorge@jhc.design </br> or jorgecorrea.id@gmail.com"
+    email-validation: "jorge@jhc.design"
     comment: "Comment*"
     message-validation: "Contact me for any reason"
     subject: "Contact Form Submission"
