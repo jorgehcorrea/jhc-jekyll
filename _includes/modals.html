@@ -1,9 +1,21 @@
 <!-- Portfolio Modals -->
+<style>
+  .modal-content{
+    margin: 50px 100px 0px 100px;
+  }
+
+  @media (max-width: 600px) {
+    .modal-content{
+    margin: 20px 30px 0px 30px;
+  }
+  }
+</style>
 {% for project in site.portfolio %}
 <div  class="portfolio-modal modal fade" id="p{{ forloop.index }}" aria-labelledby="exampleModalScrollableTitle" tabindex="-1" role="dialog" aria-hidden="true" >
 
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
+  
 <!--
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">

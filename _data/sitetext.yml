@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: I design products & experiences
+    title: Let's create strategy, </br> products and experiances
     text:
-    button: Tell Me More
+    button:
     buttonlink: "#services"
 
   services:
@@ -45,22 +45,22 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "A Calling for Design"
-        year: "2009-2014"
+        year: ""
         desc: "I started my Undergrad in Industrial Design in Carleton University. By this point I had already interned in an aluminum factory and loved to draw.  Merging art and wanting to make things was a calling. <br><br> In this period I did many internships that shapes me for furniture, shoes and product. Including a master level specialization in IED Madid on Shoes "
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Making furniture, all types of spaces with furniture"
-        year: "2014-2017"
+        year: ""
         desc: "I enjoyed making furniture with my hands. Increasingly I designed, proposed to clients, later started bidding for projects and supervised production was done properly acording to the design. <br> <br> I started as part of a small exclusive workshop, later switched to worked with a larger furniture company and developed, supervised and installed interior design project of various budgets styles and scales arround Ecuador."
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Making shoes, making them better"
-        year: "2017-2020"
+        year: ""
         desc: "Making the Switch from to Footwear. I had workd in the industry in the past, yet this time I was able to make things happen. I was part of an independent brand for a time, later I was part of an in-house Footwear Design team. Close to production and willing to make change happen. "
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Going beyond .. "
-        year: "2021 - Today"
+        year: "Today"
         desc: "After creating inside multiple companies, sectors and ventures I looked for better Understanding with a Master in Politecnico to create real Strategic chcange and growth "
         image: assets/img/timeline/4.png
         alt:
@@ -120,32 +120,31 @@ en: &DEFAULT_EN
         image: assets/img/face/CV.jpg
         social:
             - url:  https://docs.google.com/document/d/e/2PACX-1vS9hWImolgWfJlTnLHu7iM7IdPJAVgsi_4e6c9m324DiotmnN5f1_xz8uQi9IyCvJvS_ECNxvluGGhz/pub
-              icon: fa-file-pdf
+              icon: fas fa-graduation-cap
 
       - name: "Portfolio"
         role: "Sample of my work and Proejcts"
         image: assets/img/face/Folio.jpg
         social:
             - url:  https://docs.google.com/presentation/d/e/2PACX-1vTl_1PrUTZ40tNS7fvhEg3pEhfPxEDdSvyF7zg5ANR7eJnoEfibeiHAuK1v29LpO_lLwkxecLIs1QGr/pub?start=true&loop=true&delayms=5000
-              icon: fa-file-pdf
+              icon: fas fa-laptop
 
   contact:
     title: "Contact Me"
-    text: "Let's work tougether"
+    text: "Say Hi, let's talk!"
     section: contact
     name: "Name*"
     name-validation: "Jorge Correa"
     email: "Email*"
-    email-validation: "jorgecorrea.id@gmail.com"
-    phone: "Phone Number"
-    phone-validation: "+39 34 000 0000"
-    message: "Message*"
+    email-validation: "jorge@jhc.design </br> or jorgecorrea.id@gmail.com"
+    comment: "Comment*"
     message-validation: "Contact me for any reason"
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Submit"
+    location-validation: "Milano - Italy"
 
   footer:
-    legal: "Privacy Policy"
+
     social:
 #      - url: https://twitter.com/IdJorgecorrea
 #        icon: "fab fa-twitter"
@@ -155,8 +154,7 @@ en: &DEFAULT_EN
         icon: "fab fa-linkedin-in"
       - url: https://github.com/jorgehcorrea
         icon: "fab fa-github"
-      - url: post.title
-        icon: "fab fa-light fa-pen-nib"
+
 
 
 

@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+ Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that.
@@ -13,7 +13,7 @@
 
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "jorge" # the subpath of your site, e.g. /blog
 
 remote_theme: jekyll-agency
 
@@ -33,7 +33,7 @@ analytics:
 
 collections:
   portfolio:
-permalink: 
+permalink: /:title/
 # markdown:
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
@@ -42,4 +42,4 @@ permalink:
 
 
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme

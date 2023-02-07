@@ -14,23 +14,23 @@
       {%- for event in site.data.sitetext[site.locale].timeline.events -%}
             {%- if align == "right" -%}
               {%- if event.align and event.align == "left" -%}
-                {%- assign align = "right" -%}
+                {%- assign align = "left" -%}
                 <li>
               {%- else -%}
                 {%- assign align = "left" %}
                 <li class="timeline-inverted">
               {% endif %}
             {% else %}
-              {%- if event.align and event.align == "right" -%}
+              {%- if event.align and event.align == "left" -%}
                 {%- assign align = "left" -%}
                 <li class="timeline-inverted">
               {%- else -%}
-                {%- assign align = "right" %}
+                {%- assign align = "left" %}
                 <li>
               {% endif %}
             {%- endif -%}
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                <img class="squared" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -43,7 +43,30 @@
               </div>
             </li>
 		  {% endfor %}
-
+      <style>
+        .squared{
+          width: 350px; height: 330px; margin-left: 200px; border: 7px solid rgb(210, 210, 210);
+        }
+        @media (max-width: 600px) {
+          .timeline{
+            display: flex;
+            flex-direction: column;
+          }
+          .squared{
+            width: 170px;
+            height: 170px;
+            margin-left: 30px;
+            margin-right: 0px;
+          }
+          ::before{
+            display: none;
+          }
+          .timeline-panel{
+            
+            margin-left: 0px;
+          }
+        }
+      </style>
 		  {% if site.data.sitetext[site.locale].timeline.end %}
 			<li class="timeline-inverted">
               <div class="timeline-image">

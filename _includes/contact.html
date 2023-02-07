@@ -5,14 +5,13 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">
           {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3>
+        <h3 style="color: rgb(247, 238, 238);" class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
         <form id="contactForm"
-          action="https://formspree.io/{% if site.formspree_form_path %}{{ site.formspree_form_path }}{% else %}{{ site.email }}{% endif %}"
-          novalidate="novalidate" method="POST">
+        action="https://formspree.io/f/mvonzjgw" method="POST">
           <!--name="sentMessage"-->
           <div class="row">
             <div class="col-md-6">
@@ -29,35 +28,111 @@
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.phone | default: "Phone Number*" }}"
-                  required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.phone-validation | default: "Please enter your phone number." }}">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <textarea name="message" class="form-control" id="message"
-                  placeholder="{{ site.data.sitetext[site.locale].contact.message | default: "Message*" }}"
+                <input name="phone" class="form-control" id="message" type="text"
+                  placeholder="{{ site.data.sitetext[site.locale].contact.comment | default: "Comment*" }}"
                   required="required" data-validation-required-message="{{ site.data.sitetext[site.locale].contact.message-validation | default: "Please enter a message." }}">
-                </textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
+            <div class = "vertical"></div>
+            <div class="col-md-6">
+              <div class="text-container">
+
+                <div id="name">
+                  <span class="name1"></span><span class="name2">{{ site.data.sitetext[site.locale].contact.name-validation }}</span>
+
+                </div>
+                <br>
+                <div id="email">
+                  <span class="email1"></span><span class="email2">{{ site.data.sitetext[site.locale].contact.email-validation }}</span>
+                </div>
+                <br>
+                  <div id="location">
+                    <span class="location1"></span><span class="location2">{{ site.data.sitetext[site.locale].contact.location-validation }}</span>
+                  </div>
+              </div>
+            </div>
+
+            <style>
+               .vertical {
+                opacity: 0.4;
+            border-left: 2px solid rgb(255, 255, 255);
+            height: 80%;
+            position:absolute;
+            left: 50%;
+        }
+              .text-container{
+                color: rgba(232, 234, 236, 0.495);
+                margin-left: 50px;
+                margin-top: 10px;
+              }
+              .name1, .email1, .location1{
+                font-size: 33px;
+              }
+             .name2, .email2, .location2{
+                margin-left: 50px;
+              }
+
+              .name2, .email2, .location2{
+                font-size: 23px;
+                font-style: italic;
+                margin-bottom: 30px;
+              }
+              #success{
+                margin: 20px 300px 0px 300px;
+              }
+              #email{
+                margin-top: 0px;
+              }
+              #location{
+                margin-top: 0px;
+              }
+              @media (max-width: 600px) {
+                .text-container{
+                  margin-bottom: 20px;
+                  margin-left: 0px;
+                }
+                .vertical{
+                  display: none;
+                }
+                .name1, .email1, .location1{
+                font-size: 22px;
+              }
+             .name2, .email2, .location2{
+                margin-left: 30px;
+                font-style: italic;
+                font-size: 16px;
+
+              }
+              #email{
+                margin-top: 0px;
+              }
+              #location{
+                margin-top: 10px;
+              }
+                #success{
+                  margin: 20px 10px 0px 10px;
+                }
+              }
+
+            </style>
+
             <input type="hidden" name="_subject" id="email-subject"
               value="{{ site.data.sitetext[site.locale].contact.subject | default: "Contact Form Submission" }}">
             <div class="clearfix"></div>
-            <div class="col-lg-12 text-center">
-              <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
+            <div class="col-md-1 text-center">
+
+              <button id="sendMessageButton" class="btn btn-primary  text-uppercase" width="10px"
                 type="submit">{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
           </div>
         </form>
+
       </div>
     </div>
   </div>
+  <div id="success"></div>
 </section>
 <!-- End Contact -->
