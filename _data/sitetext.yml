@@ -44,21 +44,6 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "A Calling for Design"
-        year: ""
-        desc: "I started my Undergrad in Industrial Design in Carleton University. By this point I had already interned in an aluminum factory and loved to draw.  Merging art and wanting to make things was a calling. <br><br> In this period I did many internships that shapes me for furniture, shoes and product. Including a master level specialization in IED Madid on Shoes "
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Making furniture, all types of spaces with furniture"
-        year: ""
-        desc: "I enjoyed making furniture with my hands. Increasingly I designed, proposed to clients, later started bidding for projects and supervised production was done properly acording to the design. <br> <br> I started as part of a small exclusive workshop, later switched to worked with a larger furniture company and developed, supervised and installed interior design project of various budgets styles and scales arround Ecuador."
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Making shoes, <br> making them better"
-        year: ""
-        desc: "Making the Switch from to Footwear. I had workd in the industry in the past, yet this time I was able to make things happen. I was part of an independent brand for a time, later I was part of an in-house Footwear Design team. Close to production and willing to make change happen. "
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
       - title: "Going beyond .. "
         year: "Today"
         desc: "After creating inside multiple companies, sectors and ventures I looked for better Understanding with a Master in Politecnico to create real Strategic chcange and growth "
@@ -66,7 +51,22 @@ en: &DEFAULT_EN
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of my <br> Story!"
+      - title: "Making shoes, <br> making them better"
+        year: ""
+        desc: "Making the Switch from to Footwear. I had workd in the industry in the past, yet this time I was able to make things happen. I was part of an independent brand for a time, later I was part of an in-house Footwear Design team. Close to production and willing to make change happen. "
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Making furniture, all types of spaces with furniture"
+        year: ""
+        desc: "I enjoyed making furniture with my hands. Increasingly I designed, proposed to clients, later started bidding for projects and supervised production was done properly acording to the design. <br> <br> I started as part of a small exclusive workshop, later switched to worked with a larger furniture company and developed, supervised and installed interior design project of various budgets styles and scales arround Ecuador."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "A Calling for Design"
+        year: ""
+        desc: "I started my Undergrad in Industrial Design in Carleton University. By this point I had already interned in an aluminum factory and loved to draw.  Merging art and wanting to make things was a calling. <br><br> In this period I did many internships that shapes me for furniture, shoes and product. Including a master level specialization in IED Madid on Shoes "
+        image: assets/img/timeline/1.jpg
+        alt:
+    end:
 
   about:
     title: "This is Me"
