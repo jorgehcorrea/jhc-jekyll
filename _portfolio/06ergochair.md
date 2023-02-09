@@ -17,12 +17,13 @@ alt: image alt text
 **The breif**:   
  The creation of a system of chair system, to be produced in-house locally with the in-house technology and source local components.
 
-{:.list-inline}  
-- **Date:** 2012
-- **Client:** ATU International
-- **Category:** Furniture Development
 
 
 <img id="bigDude" src="b../../assets/img/portfolio/001/2.jpg" width="100%" height="100%" />
 <img id="bigDude" src="b../../assets/img/portfolio/001/1.jpg" width="100%" height="100%" />
 <img id="bigDude" src="b../../assets/img/portfolio/001/3.jpg" width="100%" height="100%" />
+
+{:.list-inline}  
+- **Date:** 2012
+- **Client:** ATU International
+- **Category:** Furniture Development

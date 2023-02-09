@@ -11,17 +11,19 @@ caption:
 ---
 
 
-{:.list-inline}
-
-- Date: June 2022
-- Client: Air Purification Market
-- Category: Strategy
 
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (5).jpg" width="100%" height="100%" />
-<img id="bigDude" src="b../../assets/img/portfolio/prana/prana.jpg" width="100%" height="100%" />
+
+<!-- <img id="bigDude" src="b../../assets/img/portfolio/prana/prana.jpg" width="100%" height="100%" /> -->
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (6).jpg" width="100%" height="100%"/>
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (7).jpg" width="100%" height="100%"/>
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (8).jpg" width="100%" height="100%" />
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (9).jpg" width="100%" height="100%" />
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (10).jpg" width="100%" height="100%" />
+
 <img id="bigDude" src="b../../assets/img/portfolio/prana/prana (1).jpg" width="100%" height="100%" />

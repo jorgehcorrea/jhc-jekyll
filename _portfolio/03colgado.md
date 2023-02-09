@@ -1,6 +1,6 @@
 ---
-title: Colgado
-subtitle: Stool for small spaces
+title: Colgado, Stool for Small spaces
+subtitle: What if your furniture could take space only when needed
 image: ../../assets/img/face/colgado.jpg
 alt: Keep Exploring
 
@@ -9,14 +9,6 @@ caption:
   subtitle: Furniture Design & Development
   thumbnail:  ../../assets/img/face/colgado.jpg
 ---
-
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
 
 <img src="../../assets/img/portfolio/colgado/colgadov.gif" width="100%" height="100%">
 <img src="../../assets/img/portfolio/colgado/colgado (3).jpg" width="100%" height="100%">
