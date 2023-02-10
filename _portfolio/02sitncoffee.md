@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Sit'n Coffee, Iot Experiance
   subtitle: Automated Coffee experiance
-  thumbnail: ../../assets/img/portfolio/002/sitncoffee-012.PNG
+  thumbnail: ../../assets/img/portfolio/002/sitncoffee-012.png
 
 #what displays when the item is clicked:
 title: Sit'n Coffee, a Iot Experiance
