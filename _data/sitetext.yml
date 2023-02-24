@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Let's create strategy, </br> products and experiances
+    title: Let's find solutions, </br> products and experiances
     text:
     button:
     buttonlink: "#services"
