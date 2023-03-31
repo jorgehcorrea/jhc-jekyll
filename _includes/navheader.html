@@ -1,8 +1,7 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
 
-
-  .split h2 {
+.split h2 {
     font-size: 3.0em;
     font-weight: 100;
     text-align: center;
@@ -15,12 +14,20 @@
       "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
     font-optical-sizing: auto;
     margin-bottom: 40px;
-    color: #00f9ea;
+    color: #; /* 00f9ea */
     text-align: center;
-background-color: rgba(10,10,10, 0.5); 
+    border-radius: 30px;
+    background: rgba(10,10,10, 0.5);
+    box-shadow: 0px 0px 20px 22px  rgba(10,10,10, 0.5);
+    margin-side: 200%;
+
+
+
+
+
   }
 
-  .split h2 span {
+.split h2 span {
     display: inline-block;
     white-space: break-spaces;
     transition: font-weight 0.2s ease;
@@ -86,13 +93,46 @@ background-color: rgba(10,10,10, 0.5);
     -webkit-text-fill-color: transparent;
   }
   }
+
+  #mainNav {
+    height: 4em;
+    background-image: linear-gradient(to top, rgba(10,10,10,0), rgba(10,10,10,1)); /* back degreade de navbar top */
+  }
+  #colortop{
+    opacity: 0.5;
+    background: linear-gradient(0deg, rgba(255,0,0,0.2) 20%, rgba(255,0,0,0.4) 40%, rgba(255,0,0,0.6) 60%, rgba(255,0,0,0.8) 80%), linear-gradient(-90deg, rgba(0,0,255,0) 0%, rgba(0,0,255,0.2) 20%, rgba(0,0,255,0.4) 40%, rgba(0,0,255,0.6) 60%, rgba(0,0,255,0.8) 80%, rgba(0,0,255,1) 100%), rgb(0, 255, 0);
+    background-size: 300% 300%;
+    background-position: 0% 0%;
+    position:fixed;
+    display:block;
+    animation: gradient 10s infinite linear;
+    }
+    @keyframes gradient{
+    0%{
+    background-position: 0% 0%;
+    }
+    25%{
+    background-position: 0% 100%;
+    }
+    50%{
+    background-position: 100% 100%;
+    }
+    75%{
+    background-position: 100% 0%;
+    }
+    100%{
+    background-position: 0% 0%;
+    }
+
+  }
+
   </style>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top " id="mainNav">
+    <div class="container ">
+	  <a class="navbar-brand js-scroll-trigger " href="#page-top" >
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img class="colortop" height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
