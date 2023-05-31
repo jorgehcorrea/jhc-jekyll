@@ -6,8 +6,7 @@
 
   @media (max-width: 600px) {
     .modal-content{
-    margin: 20px 30px 0px 30px;
-  }
+    margin: 20px 30px 0px 30px; }
   }
 </style>
 {% for project in site.portfolio %}
@@ -15,7 +14,6 @@
 
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
-  
 <!--
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">
@@ -23,52 +21,37 @@
         </div>
       </div>
 -->
-
       <div class="modal-header">
         <!-- -->
-
         <div style="margin-top: 0px;">
         <h3 class="modal-title" id="exampleModalScrollableTitle"> {{ project.title }}</h3>
         </div>
-
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -35px;">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
-
-
       <div class="container modal-scre modal-body">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2 class="text-uppercase"> </h2>
-              <p class="item-intro text-muted">{{ project.subtitle }}</p>
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <div class="modal-body">
+                    <!-- Project Details Go Here -->
+                    <h2 class="text-uppercase"> </h2>
+                    <p class="item-intro text-muted">{{ project.subtitle }}</p>
 
-              <img
-                class="img-fluid d-block mx-auto"
-                src="{{ project.image }}"
-                alt="{{ project.alt }}"
-              />
+                    <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}"       />
 
-              <p>{{ project.content }}</p>
+                    <p>{{ project.content }}</p>
 
-              <button
-                class="btn btn-primary"
-                data-dismiss="modal"
-                type="button"
-              >
-                <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
-                default: "Close Project" }}
-              </button>
+                    <button class="btn btn-primary" data-dismiss="modal" type="button" >
+                      <i class="fas fa-times"></i>
+                      {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                      default: "Close Project" }}
+                    </button>
 
-            </div>
-          </div>
-        </div>
-
-
+                  </div>
+                </div>
+              </div>
       </div>
 
 

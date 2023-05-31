@@ -13,7 +13,7 @@ alt: image alt text
 ---
 #### What happens in the background?
 The objects talk to each other in the background.   
-<img id="bigDude" src="../../assets/img/portfolio/002/sitncoffee-02.png" width="100%" height="100%" />
+
 
 **The breif**:   
  The creation of a system of chair system, to be produced in-house locally with the in-house technology and source local components.

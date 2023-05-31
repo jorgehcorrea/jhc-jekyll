@@ -11,10 +11,18 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Let's find solutions, </br> products and experiances
+    title:
     text:
     button:
     buttonlink: "#services"
+
+
+
+  portfolio:
+    title: "Portfolio : Industrial & Strategic Design"
+    text: "Here I showcase projects I've been a part of and I have enjoyed greatly"
+    section: portfolio
+    closebutton: "Close Project"
 
   services:
     title: "What I do"
@@ -30,12 +38,6 @@ en: &DEFAULT_EN
       - title: "Industrial Design"
         desc: "The development, sourcing and production of the product, considering local production and sustainable alternatives"
         icon: fas fa-cube
-
-  portfolio:
-    title: "Portfolio : Industrial & Strategic Design"
-    text: "Here I showcase projects I've been a part of and I have enjoyed greatly"
-    section: portfolio
-    closebutton: "Close Project"
 
   timeline:
     title: "My Journey"
@@ -119,14 +121,14 @@ en: &DEFAULT_EN
         role: "Formation and Experiance"
         image: assets/img/face/CV.jpg
         social:
-            - url:  https://docs.google.com/document/d/e/2PACX-1vS9hWImolgWfJlTnLHu7iM7IdPJAVgsi_4e6c9m324DiotmnN5f1_xz8uQi9IyCvJvS_ECNxvluGGhz/pub
+            - url:  https://indd.adobe.com/view/56b819fd-dd85-46ad-a89e-4a9965c6c6f9
               icon: fas fa-graduation-cap
 
       - name: "Portfolio"
         role: "Sample of my work and Proejcts"
         image: assets/img/face/Folio.jpg
         social:
-            - url:  https://docs.google.com/presentation/d/e/2PACX-1vTl_1PrUTZ40tNS7fvhEg3pEhfPxEDdSvyF7zg5ANR7eJnoEfibeiHAuK1v29LpO_lLwkxecLIs1QGr/pub?start=true&loop=true&delayms=5000
+            - url:  https://indd.adobe.com/view/7dc4fd96-eaf4-4e2c-a28c-2524e8e3c0cb
               icon: fas fa-laptop
 
   contact:
@@ -136,7 +138,7 @@ en: &DEFAULT_EN
     name: "Name*"
     name-validation: "Jorge Correa"
     email: "Email*"
-    email-validation: "jorge@jhc.design"
+    email-validation: "info@jhc.design"
     comment: "Comment*"
     message-validation: "Contact me for any reason"
     subject: "Contact Form Submission"

@@ -71,37 +71,42 @@
 }
 
 .portfolio-modal {
-  .modal-dialog {
-    margin: 1rem;
-    max-width: 100vw;
+
+                .modal-dialog {
+                  margin: 0rem;
+                  max-width: 70vw;
+                  position: absolute;
+                  left: 17%;
+
+                }
+                .modal-content {
+                  padding: 5px 0;
+                  text-align: center;
+                  h2 {
+                    font-size: 3em;
+                    margin-bottom: 15px;
+                  }
+                  p {
+                    margin-bottom: 30px;
+                  }
+                  p.item-intro {
+                    font-size: 16px;
+                    font-style: italic;
+                    margin: 20px 0 30px;
+                    @include serif-font;
+                  }
+                  ul.list-inline {
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                  }
+                  img {
+                    margin-bottom: 30px;
+                  }
+                  button {
+                    cursor: pointer;
+                  }
   }
-  .modal-content {
-    padding: 5px 0;
-    text-align: center;
-    h2 {
-      font-size: 3em;
-      margin-bottom: 15px;
-    }
-    p {
-      margin-bottom: 30px;
-    }
-    p.item-intro {
-      font-size: 16px;
-      font-style: italic;
-      margin: 20px 0 30px;
-      @include serif-font;
-    }
-    ul.list-inline {
-      margin-top: 0;
-      margin-bottom: 30px;
-    }
-    img {
-      margin-bottom: 30px;
-    }
-    button {
-      cursor: pointer;
-    }
-  }
+
   .close-modal {
     position: absolute;
     top: 25px;
