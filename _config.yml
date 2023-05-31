@@ -17,10 +17,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 remote_theme: jekyll-agency
 
-title      : JHC DESIGN
+title      : Jorge Correa
 
 email      : jorgecorrea.id@gmail.com #this is also the email contact forms will go to
-description: "Jorge Correa's work and services"
+description: "Jorge Correa's works"
 author     : Jorge Correa
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
@@ -33,7 +33,7 @@ analytics:
 
 collections:
   portfolio:
-permalink: 
+permalink:
 # markdown:
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL

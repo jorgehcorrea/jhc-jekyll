@@ -19,7 +19,7 @@ en: &DEFAULT_EN
 
 
   portfolio:
-    title: "Portfolio : Industrial & Strategic Design"
+    title: "Past Work"
     text: "Here I showcase projects I've been a part of and I have enjoyed greatly"
     section: portfolio
     closebutton: "Close Project"
@@ -71,7 +71,7 @@ en: &DEFAULT_EN
     end:
 
   about:
-    title: "This is Me"
+    title: ""
     text: "My Education"
     image: assets/img/designthinking.jpeg
     body: "I’m an Industrial Designer working more than 5 yrs <br>
@@ -99,7 +99,7 @@ en: &DEFAULT_EN
   #      logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "This Is Me"
+    title: ""
     text: ""
     subtext:
     section: team
